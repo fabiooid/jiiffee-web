@@ -1,0 +1,16 @@
+// ============================================================
+// Wrappers
+// ============================================================
+
+.container {
+    margin: 0 $default-margin;
+
+    @media (min-width: $break-lg) {
+        margin: 0 auto;
+        max-width: $desktop-width;
+    }
+}
+
+.container--fullwidth {
+    margin: 0 $default-margin;
+}

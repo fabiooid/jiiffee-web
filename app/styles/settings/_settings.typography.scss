@@ -1,0 +1,26 @@
+// ============================================================
+// Typography
+// ============================================================
+
+// we're exporting only light 300, regular 400, bold 700
+$font-family-default: "azo-sans-web", Helvetica, Arial, sans-serif;
+
+
+$giga-size:  64px;
+$mega-size:  56px;
+$kilo-size:  42px;
+
+$alpha-size: 32px;
+$beta-size:  24px;
+$gamma-size: 18px;
+$delta-size: 16px;
+
+$milli-size: 14px;
+$micro-size: 12px;
+
+$font-size-mobile: $delta-size;
+$font-size-base: $delta-size;
+
+$font-weight-light: 300;
+$font-weight-base: 400;
+$font-weight-heavy: 700;

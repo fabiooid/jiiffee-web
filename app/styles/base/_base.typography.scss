@@ -1,0 +1,24 @@
+
+// ============================================================
+// Vertical Rhythm
+// ============================================================
+// Read: http://csswizardry.com/2012/06/single-direction-margin-declarations/
+// tldr; using only margin-bottom enures consistency
+
+// Set margins as rems, too, so that we can scale font sizing for responsive designs,
+// and have the margins adjust in proportion to the text:
+// http://csswizardry.com/2011/12/measuring-and-sizing-uis-2011-style/
+
+// Use rems as our primary sizing unit
+// ie9, ie10: avoid font shorthand, and using rems on pseudo elements
+// ie8 is unsupported
+// http://caniuse.com/#feat=rem
+
+html {
+    background-color: $white;
+    color: $text-primary;
+    font-family: $font-family-default;
+    line-height: $base-spacing-unit;
+    font-weight: $font-weight-base;
+    font-size: $font-size-base;
+}

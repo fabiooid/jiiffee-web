@@ -1,6 +1,16 @@
 // bower:scss
 // endbower
 
-@import "generic.normalize";
-@import "generic.reset";
-@import "component.hero";
+@import "settings/settings.layout";
+@import "settings/settings.typography";
+@import "settings/settings.colours";
+
+@import "generic/generic.normalize";
+@import "generic/generic.reset";
+
+@import "base/base.typography";
+
+@import "objects/objects.wrappers";
+@import "objects/objects.headings";
+
+@import "components/components.hero";

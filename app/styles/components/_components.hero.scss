@@ -1,6 +1,13 @@
+// Hero section
+
 .c-hero {
   height: 100vh;
   width: 100vw;
   background: url('../images/hero-bg.jpg') no-repeat 30% 10%;
   background-size: cover;
+}
+
+.c-lead {
+  color: $text-primary-inverted;
+  padding-top: calc(70vh - 56px);
 }
