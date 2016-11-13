@@ -1,0 +1,12 @@
+// ============================================================
+// buttons
+// ============================================================
+
+.button-primary {
+  background-color: $brand-primary;
+  color: $text-primary-inverted;
+  font-family: $font-family-default;
+  line-height: $base-spacing-unit;
+  padding: 12px 24px;
+  font-weight: $font-weight-heavy;
+}

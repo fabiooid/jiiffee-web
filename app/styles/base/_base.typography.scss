@@ -14,7 +14,7 @@
 // ie8 is unsupported
 // http://caniuse.com/#feat=rem
 
-html {
+html, body {
     background-color: $white;
     color: $text-primary;
     font-family: $font-family-default;

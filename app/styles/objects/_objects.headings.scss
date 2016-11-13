@@ -5,6 +5,7 @@
 .mega {
     font-size: $mega-size;
     font-weight: $font-weight-heavy;
+    line-height: $mega-size*1.5;
 }
 
 .kilo {
@@ -15,19 +16,23 @@
 .alpha {
     font-size: $alpha-size;
     font-weight: $font-weight-heavy;
+    line-height: $base-spacing-unit*2;
 }
 
 .beta {
     font-size: $gamma-size;
     font-weight: $font-weight-heavy;
+    line-height: $gamma-size*1.5;
 }
 
 .gamma {
     font-size: $gamma-size;
+    line-height: $delta-size*1.5;
 }
 
 .delta {
     font-size: $delta-size;
+    line-height: $delta-size*1.5;
 }
 
 .muted {

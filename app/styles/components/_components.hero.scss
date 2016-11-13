@@ -5,18 +5,29 @@
   width: 100vw;
   background: url('../images/hero-bg.jpg') no-repeat 70% 50%;
   background-size: cover;
+  &__content {
+    padding-top: calc(60vh - 56px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
 .c-lead {
   color: $text-primary-inverted;
   text-align: center;
-  padding-top: calc(60vh - 56px);
+  margin-bottom:$base-spacing-unit;
 }
 
 .c-join__email {
   display: flex;
-  height: 36px;
-  background-color: rgba(256,256,256, 0.5);
+  height: 48px;
+  background-color: rgba(256,256,256, 0.3);
+  
+  @media (min-width: 600px) {
+    min-width: $base-spacing-unit*24;
+  }
 }
 
 .c-join__email__field {
@@ -25,13 +36,25 @@
   background-color: transparent;
   border: none;
   color: $text-primary-inverted;
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba($brand-primary, 1);
+  }
   @extend .delta;
   padding: $base-spacing-unit/2;
 }
 
+  ::-webkit-input-placeholder {
+   color: $text-primary-inverted; }
+  :-moz-placeholder { /* Firefox 18- */
+     color: $text-primary-inverted; }
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: $text-primary-inverted; }
+  :-ms-input-placeholder {
+     color: $text-primary-inverted; }
+
 .c-join__email__submit {
   appearance: none;
-  background-color: transparent;
   border: none;
   cursor: pointer;
 }
