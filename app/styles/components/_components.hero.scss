@@ -3,11 +3,35 @@
 .c-hero {
   height: 100vh;
   width: 100vw;
-  background: url('../images/hero-bg.jpg') no-repeat 30% 10%;
+  background: url('../images/hero-bg.jpg') no-repeat 70% 50%;
   background-size: cover;
 }
 
 .c-lead {
   color: $text-primary-inverted;
-  padding-top: calc(70vh - 56px);
+  text-align: center;
+  padding-top: calc(60vh - 56px);
+}
+
+.c-join__email {
+  display: flex;
+  height: 36px;
+  background-color: rgba(256,256,256, 0.5);
+}
+
+.c-join__email__field {
+  flex: 1;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  color: $text-primary-inverted;
+  @extend .delta;
+  padding: $base-spacing-unit/2;
+}
+
+.c-join__email__submit {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
